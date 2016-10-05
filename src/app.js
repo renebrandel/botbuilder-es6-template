@@ -18,5 +18,6 @@ const bot = new builder.UniversalBot(connector)
 server.post('/api/messages', connector.listen())
 
 bot.dialog('/', (session) => {
-  // Enter dialog here
+  // Edit more dialog here
+  session.send('Hello!')
 })
