@@ -1,5 +1,5 @@
 # BotBuilder ES6 Template
-This template is already preconfigured to allow you to write a [Microsoft/BotBuilder](github.com/Microsoft/BotBuilder) bot with ES6 and hot reloading.
+This template is already preconfigured to allow you to write a [Microsoft/BotBuilder](https://github.com/Microsoft/BotBuilder) bot with ES6 and hot reloading.
 
 ## Features
 - 🎉 Code you bot in ES6!!
@@ -7,7 +7,7 @@ This template is already preconfigured to allow you to write a [Microsoft/BotBui
 - 📦 Minimal configuration (only 2 strings need to be added)
 
 ## How to
-1. Enter your `appId` and `appPassword` that you get from the [Bot Framework](dev.botframework.com)
+1. Enter your `appId` and `appPassword` that you get from the [Bot Framework](https://dev.botframework.com)
 2. Open Terminal and run `npm run dev`
 
 That's it! You can start building your bot in `src/app.js`
