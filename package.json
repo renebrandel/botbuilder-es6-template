@@ -1,0 +1,23 @@
+{
+  "name": "botbuilder-es6-template",
+  "version": "1.0.0",
+  "description": "A botbuilder template that works with es6 and autorestarts the server when files change",
+  "main": "lib/app.js",
+  "scripts": {
+    "build": "./node_modules/.bin/babel src -d lib",
+    "start": "npm run build && node lib/app.js",
+    "dev": "nodemon --config nodemon.json -x npm start"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "botbuilder": "^3.2.3",
+    "nodemon": "^1.10.2",
+    "request": "^2.75.0",
+    "restify": "^4.1.1"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.16.0",
+    "babel-preset-es2015": "^6.16.0"
+  }
+}
